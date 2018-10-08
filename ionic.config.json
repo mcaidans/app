@@ -1,0 +1,8 @@
+{
+  "name": "fmd",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "d2cce025"
+}
