@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
+import { VouchersPage } from '../voucher/voucher';
+import { ViewPage } from '../view/view'
+
 @Component({
   selector: 'page-voucher',
   templateUrl: 'voucher.html'
@@ -22,8 +25,9 @@ export class VouchersPage {
   }
 
   openVoucher(id){
-
+      this.navCtrl.push(ViewPage);
       console.log(id);
   }
+
 
 }

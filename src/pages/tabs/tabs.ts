@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-
+import { ViewPage } from '../view/view';
 import { VouchersPage } from '../voucher/voucher';
 
 
@@ -10,6 +10,7 @@ import { VouchersPage } from '../voucher/voucher';
 export class TabsPage {
 
   tab1Root = VouchersPage;
+  tab2Root = ViewPage;
 
   constructor() {
 
