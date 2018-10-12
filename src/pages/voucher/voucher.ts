@@ -5,13 +5,25 @@ import { NavController } from 'ionic-angular';
   selector: 'page-voucher',
   templateUrl: 'voucher.html'
 })
-export class VoucherPage {
+export class VouchersPage {
 
   constructor(public navCtrl: NavController) {
-      this.voucher = [
-          'assets/imgs/test.jpg'
+      this.vouchers = [
+          {
+              image:'assets/imgs/test.jpg',
+              id:'1'
+          },
+          {
+              image:'assets/imgs/logo.png',
+              id:'2'
+          }
       ];
 
+  }
+
+  openVoucher(id){
+
+      console.log(id);
   }
 
 }

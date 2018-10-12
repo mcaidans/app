@@ -9,10 +9,7 @@
 <ion-content>
 
     <ion-list>
-        <ion-list-header>Vouchers</ion-list-header>
-        <ion-img ng-repeat="voucher in vouchers">
-            {{voucher.id}}
-        </ion-img>
+        <ion-img *ngFor="let voucher of vouchers" src={{voucher.image}} height=200 width=200 (click)='openVoucher(voucher.id);'></ion-img>
         <!--<ion-img width="200" height="200" src='assets/imgs/test.jpg' ng-click="nextpage()"></ion-img> -->
 
     </ion-list>
