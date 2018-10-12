@@ -19,14 +19,46 @@ export class VouchersPage {
           {
               image:'assets/imgs/logo.png',
               id:'2'
-          }
+          },
+          {
+              image:'assets/imgs/test.jpg',
+              id:'1'
+          },
+          {
+              image:'assets/imgs/logo.png',
+              id:'2'
+          },
+          {
+              image:'assets/imgs/test.jpg',
+              id:'1'
+          },
+          {
+              image:'assets/imgs/logo.png',
+              id:'2'
+          },
+          {
+              image:'assets/imgs/test.jpg',
+              id:'1'
+          },
+          {
+              image:'assets/imgs/logo.png',
+              id:'2'
+          },
+          {
+              image:'assets/imgs/test.jpg',
+              id:'1'
+          },
+          {
+              image:'assets/imgs/logo.png',
+              id:'2'
+          },
       ];
 
   }
 
   openVoucher(id){
-      this.navCtrl.push(ViewPage);
-      console.log(id);
+      this.navCtrl.push(ViewPage, {'data':id});
+      //console.log(id);
   }
 
 
