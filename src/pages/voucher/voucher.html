@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Vouchers
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-list>
+        <ion-list-header>Vouchers</ion-list-header>
+        <ion-img ng-repeat="voucher in vouchers">
+            {{voucher.id}}
+        </ion-img>
+        <!--<ion-img width="200" height="200" src='assets/imgs/test.jpg' ng-click="nextpage()"></ion-img> -->
+
+    </ion-list>
+</ion-content>
